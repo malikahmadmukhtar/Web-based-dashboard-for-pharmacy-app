@@ -9,11 +9,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-          apiKey: "AIzaSyAxWH7JUNjqxSVk0ZFXheEqH_TNro5rsnE",
-          appId: "1:1084534148026:web:89ab74308b7e9eb5be2b83",
-          messagingSenderId: "1084534148026",
-        databaseURL: "https://pharmacy-app-decf9-default-rtdb.firebaseio.com",
-        projectId: "pharmacy-app-decf9",));
+        //add your options here
+      ));
   runApp(const MyApp());
 }
 
