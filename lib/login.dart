@@ -10,7 +10,8 @@ class Next extends StatelessWidget {
   final logintext = TextEditingController();
   final passtext = TextEditingController();
 
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
+    //Deafult Credentials for the login
     // logintext.text = 'Ahmad Malik';
     // passtext.text = '1141';
 
@@ -118,7 +119,7 @@ class Next extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(25.0),
                               )),
                         ),
-                        onPressed: () {
+                        onPressed: () {// simple if statement for login
                           if (logintext.text == ('Ahmad Malik') &&
                               passtext.text == ('1141')) {
                             Navigator.push(
