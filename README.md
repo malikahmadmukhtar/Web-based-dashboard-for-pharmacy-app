@@ -1,16 +1,31 @@
-# web_backend
+# Dashboard for AM Pharma Application
 
-A new Flutter project.
+A Simple user and order management dashboard for my application [AM Pharma](https://github.com/malikahmadmukhtar/Flutter-pharmacy-app-using-firebase-and-sqlite)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- This project is a companion app for mobile application [here](https://github.com/malikahmadmukhtar/Flutter-pharmacy-app-using-firebase-and-sqlite)
+- Based on firebase it runs only web due to the incompatiability of realtime database with windows.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Locked with a username and password to prevent unauthorized access.
+- View current signed-up users
+- View and delete orders placed by the users
+- View the state of an order (in cart or placed)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+- Add firebase options in the html and main.dart according to your own database
+-  Deploy on a server and acess it from the URL
+
+## Screenshots
+
+### Login Screen
+
+![loginss](https://github.com/malikahmadmukhtar/Web-based-dashboard-for-pharmacy-app/assets/158511475/c11a6163-dab7-4a2c-8370-fb79dd49a99c)
+
+### Main Page
+
+
+![main](https://github.com/malikahmadmukhtar/Web-based-dashboard-for-pharmacy-app/assets/158511475/c9a5e514-d986-4ddb-9d22-b4e912908847)
